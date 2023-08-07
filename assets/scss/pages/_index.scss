@@ -1,0 +1,163 @@
+
+
+.location{
+ 
+
+  margin-bottom: 80px;
+
+  .index-title {
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: bolder;
+    border-left: 8px #aa0601 solid;
+    padding-left: 16px;
+    margin-top: 96px;
+    margin-bottom: 33px;
+  }
+  .select-title{
+    font-size: 24px;
+    line-height: 36px;
+    margin-right: 16px;
+  }
+  select{
+    width: 304px;
+    height: 38px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #495057;
+  }
+
+  .drescript{
+    justify-content: space-between;
+    
+    
+    
+    h2{
+      font-size: 24px;
+      line-height: 36px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
+    ul {
+      
+      max-width: 100%;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      padding-top: 15px;
+      padding-bottom: 7px;
+      
+    }
+    
+    li {
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 8px;
+      img{
+        width: 18px;
+        height: 18px;
+        vertical-align: middle;
+      }
+    }
+    
+  }
+
+  .locate-card{
+    margin-top: 40px;
+    width: 526px;
+    img{
+      width:  100%;
+      height: 224px;
+      vertical-align: middle;
+      
+    }
+  }
+
+
+  .map{
+    margin-top: 40px;
+    border: 1px solid blue;
+    height: 414px;
+    max-width: 746px;
+    img{
+      max-width: 100%;
+      height: 414px;
+      vertical-align: middle;
+    }
+  }
+
+  .d-flex{
+    display: flex;
+  }
+
+  .gray-border{
+    border: 1px solid lightgrey;
+  }
+
+
+}
+
+@media(max-width: 767px) {
+  .location{
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .drescript{
+    .locate-card{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
+      .card-content{
+        
+        width: 337px;
+      }
+      img{
+        width: 100%;
+      }
+      
+    }
+  }
+  .map{
+     img{
+    max-width: 100%;
+    }
+  }
+
+  .location .d-flex{
+    display: block;
+  }
+
+}
+
+@media(max-width: 375spx){
+
+  
+  .drescript{
+    .locate-card{
+      display: block;
+      margin-top: 24px;
+    }
+
+    .map{
+      margin-top: 24px;
+    }
+
+    .gray-border{
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+
+  }
+
+  .location{
+    padding-left: 13px;
+    padding-right: 13px;
+   
+  }
+
+ 
+
+}

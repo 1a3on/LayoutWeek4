@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap">
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <div class="container location">
+      <h1 class="index-title">門市據點</h1>
+      <span class="select-title">選擇分店</span> 
+      <select>
+        <option>台北中山旗艦店</option>
+        <option>桃園中山旗艦店</option>
+        <option>台中中山旗艦店</option>
+        <option>台南中山旗艦店</option>
+        <option>高雄中山旗艦店</option>
+      </select>
+      <div class="d-flex drescript">
+        
+          <div class="locate-card">
+            <div class="card-content">
+              <img src="../assets/images/store-1.png" alt="">
+            </div>
+            <div class="card-content ixp">
+              <div class="gray-border">
+                <h2>台北中山旗艦店</h2>
+              </div>
+              <div class="gray-border">
+                <ul>
+                <li><img src="../assets/" alt="">電話：(02)000-1234</li>
+                <li><img src="../assets/" alt="">營業時間：10:00-21:00</li>
+                <li><img src="../assets/" alt="">地址：台北市中山區南京東路25巷2-1號</li>
+              </ul>
+            </div>
+             
+              
+            </div>
+           
+          </div>
+       
+        <div class="map">
+          <img src="../assets/images/2020-02-13 16.35.44.png" alt="location">
+        </div>
+      </div>
+
+    </div>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
