@@ -83,7 +83,6 @@
 
   .map {
     margin-top: 40px;
-    border: 1px solid blue;
     height: 414px;
     max-width: 57.5%;
 
@@ -141,7 +140,7 @@
 
       .card-content {
 
-        width: 100%;
+        width: 48%;
       }
 
       img {
@@ -171,7 +170,13 @@
     .locate-card {
       display: block;
       margin-top: 24px;
+      .card-content {
+
+        width: 100%;
+      }
     }
+
+   
 
     .map {
       margin-top: 24px;
