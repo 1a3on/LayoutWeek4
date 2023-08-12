@@ -1,7 +1,5 @@
+.location {
 
-
-.location{
- 
 
   margin-bottom: 80px;
 
@@ -14,12 +12,14 @@
     margin-top: 96px;
     margin-bottom: 33px;
   }
-  .select-title{
+
+  .select-title {
     font-size: 24px;
     line-height: 36px;
     margin-right: 16px;
   }
-  select{
+
+  select {
     width: 304px;
     height: 38px;
     font-size: 18px;
@@ -27,137 +27,169 @@
     color: #495057;
   }
 
-  .drescript{
+  .drescript {
     justify-content: space-between;
-    
-    
-    
-    h2{
+
+
+
+    h2 {
       font-size: 24px;
       line-height: 36px;
       padding-top: 7px;
       padding-bottom: 7px;
     }
+
     ul {
-      
+
       max-width: 100%;
       list-style: none;
       padding: 0;
       margin: 0;
       padding-top: 15px;
       padding-bottom: 7px;
-      
+
     }
-    
+
     li {
       margin: 0;
       padding: 0;
       font-size: 20px;
       line-height: 30px;
       margin-bottom: 8px;
-      img{
+
+      img {
+        margin-top: 7px;
+        margin-right: 11px;
         width: 18px;
         height: 18px;
         vertical-align: middle;
       }
     }
-    
+
   }
 
-  .locate-card{
+  .locate-card {
     margin-top: 40px;
-    width: 526px;
-    img{
-      width:  100%;
+    width: 40.5%;
+
+    img {
+      width: 100%;
       height: 224px;
       vertical-align: middle;
-      
+
     }
   }
 
 
-  .map{
+  .map {
     margin-top: 40px;
     border: 1px solid blue;
     height: 414px;
-    max-width: 746px;
-    img{
+    max-width: 57.5%;
+
+    img {
       max-width: 100%;
-      height: 414px;
+      height: 100%;
       vertical-align: middle;
+      object-fit: cover;
     }
   }
 
-  .d-flex{
+  .d-flex {
     display: flex;
   }
 
-  .gray-border{
+  .gray-border {
     border: 1px solid lightgrey;
   }
 
+  .li-flex {
+    display: flex;
+    align-items: top;
+  }
 
+ 
 }
 
-@media(max-width: 767px) {
-  .location{
+@media(max-width: 768px) {
+
+  .conrainer {
+    max-width: 100%;
+  }
+
+  select {
+    max-width: 100%;
+  }
+
+  .location {
     padding-left: 35px;
     padding-right: 35px;
+    .map {
+      max-width: 100%;
+      img {
+        max-width: 100%;
+      }
+    }
   }
-  .drescript{
-    .locate-card{
+
+  .drescript {
+    .locate-card {
       display: flex;
       justify-content: space-between;
       width: 100%;
       align-items: center;
-      .card-content{
-        
-        width: 337px;
-      }
-      img{
+
+      .card-content {
+
         width: 100%;
       }
-      
-    }
-  }
-  .map{
-     img{
-    max-width: 100%;
+
+      img {
+        width: 100%;
+      }
+
     }
   }
 
-  .location .d-flex{
+  .map {
+    
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .location .d-flex {
     display: block;
   }
 
 }
 
-@media(max-width: 375spx){
+@media(max-width: 375px) {
 
-  
-  .drescript{
-    .locate-card{
+
+  .drescript {
+    .locate-card {
       display: block;
       margin-top: 24px;
     }
 
-    .map{
+    .map {
       margin-top: 24px;
     }
 
-    .gray-border{
+    .gray-border {
       padding-left: 24px;
       padding-right: 24px;
     }
 
   }
 
-  .location{
+  .location {
     padding-left: 13px;
     padding-right: 13px;
-   
+
   }
 
- 
+
 
 }

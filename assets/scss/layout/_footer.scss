@@ -14,6 +14,11 @@ footer{
     
   }
 
+  .context{
+    
+    word-wrap: break-word;
+  }
+
   ul{
     align-items: center;
   }
@@ -27,7 +32,7 @@ footer{
   img{
     width: 48px;
     height: 48px;
-    margin-left: 32px;
+    
   }
   h3{
   
@@ -63,7 +68,9 @@ footer{
     }
   }
   
-  
+  .wrap{
+    flex-wrap: wrap;
+  }
 
   .ix-show{
     display: none;
@@ -90,10 +97,10 @@ footer{
   margin-bottom: 16px;
 }
 
-@media(max-width: 767px) {
+@media(max-width: 768px) {
   footer{
-    padding-left: 36px;
-    padding-right: 36px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
   .pc-show{
     img{
@@ -103,10 +110,14 @@ footer{
     }
   }
 
+  .context{
+
+    display: block;
+  }
   
 }
 
-@media(max-width: 375px){
+@media(max-width: 550px){
   footer{
     padding-left: 13px;
     padding-right: 14px;
